@@ -22370,4 +22370,5 @@ NPH1-1 in water
 [ molecules ]
 ; Compound        #mols
 Protein_chain_A     1
-SOL              7047
+SOL         7044
+NA               3
