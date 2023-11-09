@@ -1,0 +1,19 @@
+# GROMACS Backup files
+\#*.*\#
+
+# `gmx energy` output
+*.xvg
+
+# Trajectory (binary) files
+*.xtc
+*.cpt
+*.edr
+*.tpr
+*.trr
+
+# Log and output parameter files
+*.log
+mdout.mdp
+
+# PBC-treated structure files
+*_pbc.gro
