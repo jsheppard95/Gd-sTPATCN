@@ -3,6 +3,7 @@
 
 # `gmx energy` output
 *.xvg
+*.png
 
 # Trajectory (binary) files
 *.xtc
