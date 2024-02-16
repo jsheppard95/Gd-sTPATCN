@@ -1,0 +1,1 @@
+{"systype":"solution","dimensions":[],"input":["gromacs"],"forcefield":{"type":"c36m","files":["default"],"custom":["uploaded_files\/lig.rtf","uploaded_files\/lig.prm"]},"hmr":false}

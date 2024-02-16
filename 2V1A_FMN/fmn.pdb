@@ -1,0 +1,36 @@
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE FMN A1547                 
+HET    FMN  A1547      31                                                       
+HETNAM     FMN FLAVIN MONONUCLEOTIDE                                            
+HETSYN     FMN RIBOFLAVIN MONOPHOSPHATE                                         
+FORMUL   2  FMN    C17 H21 N4 O9 P                                              
+HETATM 1205  N1  FMN A1547      20.769   0.723   5.961  1.00 14.02           N  
+HETATM 1206  C2  FMN A1547      20.999  -0.519   5.468  1.00 12.79           C  
+HETATM 1207  O2  FMN A1547      22.161  -0.899   5.295  1.00 14.58           O  
+HETATM 1208  N3  FMN A1547      19.942  -1.335   5.103  1.00 13.74           N  
+HETATM 1209  C4  FMN A1547      18.648  -0.954   5.278  1.00 12.83           C  
+HETATM 1210  O4  FMN A1547      17.755  -1.687   4.867  1.00 13.78           O  
+HETATM 1211  C4A FMN A1547      18.389   0.311   5.817  1.00 11.36           C  
+HETATM 1212  N5  FMN A1547      17.117   0.721   6.030  1.00 12.69           N  
+HETATM 1213  C5A FMN A1547      16.876   1.988   6.542  1.00 12.58           C  
+HETATM 1214  C6  FMN A1547      15.563   2.411   6.729  1.00 12.80           C  
+HETATM 1215  C7  FMN A1547      15.286   3.681   7.219  1.00 12.25           C  
+HETATM 1216  C7M FMN A1547      13.851   4.135   7.308  1.00 14.40           C  
+HETATM 1217  C8  FMN A1547      16.350   4.523   7.553  1.00 12.02           C  
+HETATM 1218  C8M FMN A1547      16.057   5.935   8.039  1.00 14.04           C  
+HETATM 1219  C9  FMN A1547      17.669   4.100   7.382  1.00 12.93           C  
+HETATM 1220  C9A FMN A1547      17.955   2.831   6.867  1.00 12.92           C  
+HETATM 1221  N10 FMN A1547      19.255   2.405   6.665  1.00 12.75           N  
+HETATM 1222  C10 FMN A1547      19.480   1.137   6.161  1.00 11.85           C  
+HETATM 1223  C1' FMN A1547      20.396   3.342   6.748  1.00 13.61           C  
+HETATM 1224  C2' FMN A1547      21.037   3.380   8.141  1.00 15.40           C  
+HETATM 1225  O2' FMN A1547      20.023   3.294   9.149  1.00 15.06           O  
+HETATM 1226  C3' FMN A1547      21.877   4.650   8.281  1.00 16.43           C  
+HETATM 1227  O3' FMN A1547      21.059   5.773   7.957  1.00 17.25           O  
+HETATM 1228  C4' FMN A1547      23.121   4.603   7.381  1.00 17.07           C  
+HETATM 1229  O4' FMN A1547      23.977   3.591   7.859  1.00 17.53           O  
+HETATM 1230  C5' FMN A1547      23.850   5.944   7.328  1.00 18.19           C  
+HETATM 1231  O5' FMN A1547      24.031   6.492   8.616  1.00 19.93           O  
+HETATM 1232  P   FMN A1547      25.357   6.232   9.480  1.00 23.08           P  
+HETATM 1233  O1P FMN A1547      25.251   6.994  10.776  1.00 24.79           O  
+HETATM 1234  O2P FMN A1547      25.490   4.754   9.720  1.00 22.23           O  
+HETATM 1235  O3P FMN A1547      26.566   6.688   8.674  1.00 23.86           O  
