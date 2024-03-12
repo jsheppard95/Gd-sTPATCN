@@ -1,0 +1,257 @@
+*>>>>>> CHARMM parameters for flavin mononucleotide/cysteine photoadduct <<<<<<<<<
+27 1
+
+MASS     1 H      1.00800 H ! polar H
+MASS     2 HC     1.00800 H ! N-ter H
+MASS     3 HA     1.00800 H ! nonpolar H
+MASS     4 HT     1.00800 H ! TIPS3P WATER HYDROGEN
+MASS     5 HP     1.00800 H ! aromatic H
+MASS     6 HB     1.00800 H ! backbone H
+MASS     7 HR1    1.00800 H ! his he1, (+) his HG,HD2
+MASS     8 HR2    1.00800 H ! (+) his HE1
+MASS     9 HR3    1.00800 H ! neutral his HG, HD2
+MASS    10 HS     1.00800 H ! thiol hydrogen
+MASS    11 HE1    1.00800 H ! for alkene; RHC=CR
+MASS    12 HE2    1.00800 H ! for alkene; H2C=CR
+MASS    20 C     12.01100 C ! carbonyl C, peptide backbone
+MASS    21 CA    12.01100 C ! aromatic C
+MASS    22 CT1   12.01100 C ! aliphatic sp3 C for CH
+MASS    23 CT2   12.01100 C ! aliphatic sp3 C for CH2
+MASS    24 CT3   12.01100 C ! aliphatic sp3 C for CH3
+MASS    25 CPH1  12.01100 C ! his CG and CD2 carbons
+MASS    26 CPH2  12.01100 C ! his CE1 carbon
+MASS    27 CPT   12.01100 C ! trp C between rings
+MASS    28 CY    12.01100 C ! TRP C in pyrrole ring
+MASS    29 CP1   12.01100 C ! tetrahedral C (proline CA)
+MASS    30 CP2   12.01100 C ! tetrahedral C (proline CB/CG)
+MASS    31 CP3   12.01100 C ! tetrahedral C (proline CD)
+MASS    32 CC    12.01100 C ! carbonyl C, asn,asp,gln,glu,cter,ct2
+MASS    33 CD    12.01100 C ! carbonyl C, pres aspp,glup,ct1
+MASS    34 CPA   12.01100 C ! heme alpha-C
+MASS    35 CPB   12.01100 C ! heme beta-C
+MASS    36 CPM   12.01100 C ! heme meso-C
+MASS    37 CM    12.01100 C ! heme CO carbon
+MASS    38 CS    12.01100 C ! thiolate carbon
+MASS    39 CE1   12.01100 C ! for alkene; RHC=CR
+MASS    40 CE2   12.01100 C ! for alkene; H2C=CR
+MASS    50 N     14.00700 N ! proline N
+MASS    51 NR1   14.00700 N ! neutral his protonated ring nitrogen
+MASS    52 NR2   14.00700 N ! neutral his unprotonated ring nitrogen
+MASS    53 NR3   14.00700 N ! charged his ring nitrogen
+MASS    54 NH1   14.00700 N ! peptide nitrogen
+MASS    55 NH2   14.00700 N ! amide nitrogen
+MASS    56 NH3   14.00700 N ! ammonium nitrogen
+MASS    57 NC2   14.00700 N ! guanidinium nitroogen
+MASS    58 NY    14.00700 N ! TRP N in pyrrole ring
+MASS    59 NP    14.00700 N ! Proline ring NH2+ (N-terminal)
+MASS    60 NPH   14.00700 N ! heme pyrrole N
+MASS    70 O     15.99900 O ! carbonyl oxygen
+MASS    71 OB    15.99900 O ! carbonyl oxygen in acetic acid
+MASS    72 OC    15.99900 O ! carboxylate oxygen
+MASS    73 OH1   15.99900 O ! hydroxyl oxygen
+MASS    74 OS    15.99940 O ! ester oxygen
+MASS    75 OT    15.99940 O ! TIPS3P WATER OXYGEN
+MASS    76 OM    15.99900 O ! heme CO/O2 oxygen
+MASS    81 S     32.06000 S ! sulphur
+MASS    82 SM    32.06000 S ! sulfur C-S-S-C type
+MASS    83 SS    32.06000 S ! thiolate sulfur
+MASS    85 HE     4.00260 HE ! helium
+MASS    86 NE    20.17970 NE ! neon
+MASS    90 CAL   40.08000 CA ! calcium 2+
+MASS    91 ZN    65.37000 ZN ! zinc (II) cation
+MASS    92 FE    55.84700 Fe ! heme iron 56
+MASS    99 DUM    0.00000 H ! dummy atom
+!nucleic acid section
+!MASS 1    HT    1.008000 H ! TIPS3P WATER HYDROGEN
+MASS 102    HN1   1.008000 H ! Nucleic acid amine proton
+MASS 103    HN2   1.008000 H ! Nucleic acid ring nitrogen proton
+MASS 104    HN3   1.008000 H ! Nucleic acid aromatic carbon proton
+MASS 105    HN3B  1.008000 H ! NAD+ aromatic hydrogen
+MASS 106    HN3C  1.008000 H ! Standard aromatic hydrogen (as in benzene)
+MASS 107    HNP   1.008000 H ! pure aromatic H
+MASS 108    HN4   1.008000 H ! Nucleic acid phosphate hydroxyl proton
+MASS 109    HN5   1.008000 H ! Nucleic acid ribose hydroxyl proton
+MASS 110   HN6   1.008000 H ! Nucleic acid ribose aliphatic proton
+MASS 111   HN7   1.008000 H ! Nucleic acid proton (equivalent to protein HA)
+MASS 112   HN8   1.008000 H ! Bound to CN8 in nucleic acids/model compounds
+MASS 113   HN9   1.008000 H ! Bound to CN9 in nucleic acids/model compounds
+MASS 114   HNE1  1.008000 H ! for alkene; RHC=CR (modified thy patch Sasha)
+MASS 115   HNE2  1.008000 H ! for alkene; H2C=CR (modified thy patch Sasha)
+MASS 120   CN1  12.011000 C ! Nucleic acid carbonyl carbon
+MASS 121   CN1A 12.011000 C ! NAD+/NADH amide carbonyl carbon
+MASS 122   CN1T 12.011000 C ! Nucleic acid carbonyl carbon (T/U C2)
+MASS 123   CN2  12.011000 C ! Nucleic acid aromatic carbon to amide
+MASS 124   CN3  12.011000 C ! Nucleic acid aromatic carbon 
+MASS 125   CN3A 12.011000 C ! NAD+ aromatic carbon
+MASS 126   CN3B 12.011000 C ! NAD+ aromatic carbon
+MASS 127   CN3C 12.011000 C ! NADH aromatic carbon
+MASS 128   CN3D 12.011000 C ! Nucleic acid aromatic carbon for 5MC
+MASS 129   CN3T 12.011000 C ! Nucleic acid aromatic carbon, Thy C5
+MASS 130   CN4  12.011000 C ! Nucleic acid purine C8 and ADE C2  
+MASS 131   CN5  12.011000 C ! Nucleic acid purine C4 and C5
+MASS 132   CN5G 12.011000 C ! Nucleic acid guanine C5
+MASS 133   CN7  12.011000 C ! Nucleic acid carbon (equivalent to protein CT1)
+MASS 134   CN7B 12.011000 C ! Nucleic acid aliphatic carbon for C1'
+MASS 135   CN7C 12.011000 C ! C2' in arabinose 
+MASS 136   CN7D 12.011000 C ! C2' in nucleic acids fluorine derivatives 
+MASS 137   CN8  12.011000 C ! Nucleic acid carbon (equivalent to protein CT2)
+MASS 138   CN8B 12.011000 C ! Nucleic acid carbon (equivalent to protein CT2)
+MASS 139   CN9  12.011000 C ! Nucleic acid carbon (equivalent to protein CT3)
+MASS 140   CNE1 12.011000 C ! for alkene; RHC=CR (modified thy patch Sasha)
+MASS 141   CNE2 12.011000 C ! for alkene; H2C=CR (modified thy patch Sasha)
+MASS 142   CNA  12.011000 C ! pure aromatic carbon
+MASS 143   CNA2 12.011000 C ! pure aromatic carbon bound to F
+MASS 150   NN1  14.007000 N ! Nucleic acid amide nitrogen
+MASS 151   NN1C 14.007000 N ! Nucleic acid imino nitrogen (cyt taut Sasha)
+MASS 152   NN2  14.007000 N ! Nucleic acid protonated ring nitrogen
+MASS 153   NN2B 14.007000 N ! From NN2, for N9 in GUA different from ADE
+MASS 154   NN2C 14.007000 N ! Nucleic acid protonated ring nitrogen (cyt taut Sasha)
+MASS 155   NN2U 14.007000 N ! Nucleic acid protonated ring nitrogen, ura N3
+MASS 156   NN2G 14.007000 N ! Nucleic acid protonated ring nitrogen, gua N1
+MASS 157   NN3  14.007000 N ! Nucleic acid unprotonated ring nitrogen 
+MASS 158   NN3A 14.007000 N ! Nucleic acid unprotonated ring nitrogen, ade N1 and N3
+MASS 159   NN3I 14.007000 N ! Nucleic acid unprotonated ring nitrogen, inosine N3
+MASS 160   NN3G 14.007000 N ! Nucleic acid unprotonated ring nitrogen, gua N3
+MASS 161   NN4  14.007000 N ! Nucleic acid purine N7
+MASS 162   NN5  14.007000 N ! Nucleic acid sp2 amine nitrogen
+MASS 163   NN6  14.007000 N ! Nucleic acid sp3 amine nitrogen (equiv to protein nh3)
+!MASS 70   OT   15.999400 O ! TIPS3P WATER OXYGEN
+MASS 171   ON1  15.999400 O ! Nucleic acid carbonyl oxygen
+MASS 172   ON1C 15.999400 O ! Nucleic acid carbonyl oxygen, cyt O2
+MASS 173   ON2  15.999400 O ! Nucleic acid phosphate ester oxygen
+MASS 174   ON3  15.999400 O ! Nucleic acid =O in phosphate 
+MASS 175   ON4  15.999400 O ! Nucleic acid phosphate hydroxyl oxygen
+MASS 176   ON5  15.999400 O ! Nucleic acid ribose hydroxyl oxygen
+MASS 177   ON6  15.999400 O ! Nucleic acid deoxyribose ring oxygen
+MASS 178   ON6B 15.999400 O ! Nucleic acid ribose ring oxygen
+MASS 179   ON2b 15.999400 O ! Nucleic acid phosphate ester oxygen (pres tp1/tp2)
+MASS 180   FN1  18.998400 F ! Fluorine for sugar derivatives (NF) 
+MASS 181   FNA  18.998400 F ! Aromatic fluorine
+MASS 182   P    30.974000 P ! phosphorus
+MASS 183   P2   30.974000 P ! pyrophosphate phosphorus
+MASS 190   SOD  22.989770 NA ! Sodium Ion
+MASS 191   MG   24.305000 MG ! Magnesium Ion
+MASS 192   POT  39.102000 K  ! Potassium Ion! check masses
+MASS 193   CES 132.900000 CS ! Cesium Ion
+!MASS 94   CAL  40.080000 CA ! Calcium Ion
+MASS 195   CLA  35.450000 CL ! Chloride Ion
+MASS 196   CN2F 12.011000 C ! flavin CN2
+MASS 197   CN3F 12.011000 C ! flavin CN3
+MASS 198   CN1F 12.011000 C ! flavin CN1
+MASS 199   NN2F 14.007000 N ! Protonated fmc ring nitrogen
+MASS 200   CN3L 12.011000 C ! flavin methylated CN3
+MASS 201   ON1F 15.999400 O ! flavin ON1
+
+!MASS 99   DUM   0.001    H ! dummy atom
+!MASS 102  CPH1 12.011000 C ! For imidazole model compound (NF)
+!MASS 103  CPH2 12.011000 C ! For imidazole model compound (NF)
+!MASS 104  HR3   1.008000 H ! For imidazole model compound (NF) 
+!MASS 105  HR1   1.008000 H ! For imidazole model compound (NF) 
+!MASS 106  NR1  14.007000 H ! For nitrogen in imidazol (NF)
+!MASS 107  NR2  14.007000 H ! For nitrogen in imidazol (NF)
+
+AUTO ANGLES DIHE
+
+RESI FMC 	-2.00 !             (/)
+GROUP                 !            (SG)
+ATOM N1   NN3  -0.565620 !          || |        |     |
+ATOM C2   CN1F  0.505669 !      H3  C4 |  N5    C6   C7M-H72
+ATOM O2   ON1F -0.426117 !       \ /  \|//  \ //  \ / |
+ATOM N3   NN2F -0.315190 !        N3  C4A   C5A   C7 H73
+ATOM H3   HN2   0.304252 !        |    |     |    ||
+ATOM C4   CN1F  0.343403 !        C2  C10   C9A   C8 H81
+ATOM O4   ON1  -0.413456 !       // \ // \  / \\  / \ |
+ATOM C4A  CN7  -0.103176 !      O2   N1   N10   C9   C8M-H82
+ATOM N5   NN2  -0.224756 !                 |    |     |
+ATOM H5   HN2   0.284120
+ATOM C5A  CN2F -0.007242 !                 |    H9   H83
+ATOM C6   CN3F -0.180795 !            H1'-C1'-H1''
+ATOM H6   HN3   0.078891 !                 |
+ATOM C7   CN3L -0.160859 !            H2'-C2'-O2'-HO2'
+ATOM C7M  CN9  -0.170000 !                 |
+ATOM H71  HN9   0.090000 !       HO3'-O3'-C3'-H3'
+ATOM H72  HN9   0.090000 !                 |
+ATOM H73  HN9   0.090000 !       HO4'-O4'-C4'-H4'
+ATOM C8   CN3L -0.081078 !                 |
+ATOM C8M  CN9  -0.170000 !            H5'-C5'-H5''
+ATOM H81  HN9   0.090000 !                 |
+ATOM H82  HN9   0.090000 !                O5'
+ATOM H83  HN9   0.090000 !                 |
+ATOM C9   CN3F  0.000006 !               __|__
+ATOM H9   HN3   0.079690 !            O1P--P-O2P
+ATOM C9A  CN2F  0.304979 !                 ||
+ATOM N10  NN2F -0.071820 !                 O3P
+ATOM C10  CN2F  0.408457 !
+ATOM C1'  CN8  -0.18 
+ATOM H1'  HN8   0.09 
+ATOM H1'' HN8   0.09 
+ATOM C2'  CN7   0.10
+ATOM H2'  HN7   0.13
+ATOM O2'  OH1  -0.66
+ATOM HO2' H     0.43
+ATOM C3'  CN7   0.10
+ATOM H3'  HN7   0.13
+ATOM O3'  OH1  -0.66
+ATOM HO3' H     0.43
+ATOM C4'  CN7   0.10
+ATOM H4'  HN7   0.13
+ATOM O4'  OH1  -0.66
+ATOM HO4' H     0.43
+ATOM C5'  CN8  -0.18
+ATOM H5'  HN8   0.09
+ATOM H5'' HN8   0.09
+ATOM O5'  ON2  -0.40
+ATOM P    P     1.10
+ATOM O1P  ON3  -0.90
+ATOM O2P  ON3  -0.90
+ATOM O3P  ON3  -0.90
+ATOM N    NH1  -0.47 
+ATOM HN   H     0.31
+ATOM CA   CT1   0.07
+ATOM HA   HB    0.09
+ATOM CB   CT2  -0.18
+ATOM HB1  HA    0.09
+ATOM HB2  HA    0.09
+ATOM SG   S     0.040642
+ATOM C    C     0.51
+ATOM O    O    -0.51
+BOND CB CA   SG CB   N HN  N  CA
+BOND C  CA   C +N  CA HA  CB HB1
+BOND CB HB2  
+DOUBLE O  C
+BOND C4A SG	N5 H5
+BOND N1 C2      C2 N3   N3 C4   N3 H3   C4 C4A
+BOND C4A C10    N5 C5A  C5A C9A C6 H6
+BOND C6 C7      C7 C7M  C7M H71 C7M H72
+BOND C7M H73    C8 C8M  C8M H81 C8M H82
+BOND C8M H83    C8 C9   C9 H9   C9A N10
+BOND N10 C10    N10 C1' C1' H1'
+BOND C1' H1''   C1' C2' C2' H2' C2' O2'
+BOND O2' HO2'   C2' C3' C3' H3' C3' O3'
+BOND O3' HO3'   C3' C4' C4' H4' C4' O4'
+BOND O4' HO4'   C4' C5' C5' H5' C5' H5''
+BOND C5' O5'    O5' P   P O2P
+DOUBLE C2 O2    C4 O4   C4A N5  N1 C10
+DOUBLE C5A C6   C7 C8   C9 C9A  P O1P
+DOUBLE P O3P
+DONOR H3 N3
+DONOR HO2' O2'
+DONOR HO3' O3'
+DONOR HO4' O4'
+ACCEPTOR O2 C2
+ACCEPTOR O4 C4
+ACCEPTOR O2'
+ACCEPTOR O3'
+ACCEPTOR O4'
+ACCEPTOR O5'
+ACCEPTOR O1P P
+ACCEPTOR O2P P
+ACCEPTOR O3P P
+IMPR N -C CA HN  C CA +N O
+IMPR C4 N3 C4A O4   C2 N1 N3 O2
+IMPR C10 N1 N10 C4A   C9A N10 C5A C9
+IMPR C7 C6 C8 C7M   C8 C9 C7 C8M
+IMPR C5A N5 C6 C9A  N3 C4 C2 H3
+CMAP -C  N  CA  C   N  CA  C  +N
+DONOR HN N
+ACCEPTOR O C
