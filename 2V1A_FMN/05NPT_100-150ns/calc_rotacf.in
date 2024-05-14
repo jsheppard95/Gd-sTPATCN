@@ -1,0 +1,8 @@
+# Load trajectory and reference structure
+trajin npt_pbc_prot.xtc
+reference start_prot.pdb
+
+# Compute rotational autocorrelation function
+autoimage
+center :1-2344
+rotate origin :1-2344 mask out rotacf.dat

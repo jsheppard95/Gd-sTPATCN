@@ -4,6 +4,8 @@
 # `gmx energy` output
 *.xvg
 *.png
+*.tga
+*.mp4
 
 # Trajectory (binary) files
 *.xtc
@@ -12,12 +14,30 @@
 *.tpr
 *.trr
 
+start*.pdb
+
 # Log and output parameter files
 *.log
-mdout.mdp
+mdout*.mdp
+output.*.out
 
 # PBC-treated structure files
 *_pbc.gro
 
 # Vim stuff
 *.un~
+
+# Python stuff
+__pycache__/
+
+
+# Amber Binary files
+*.ncrst
+*.nc
+2v1a*.out
+error
+output
+logfile
+mdinfo
+*.xpm
+bck.*

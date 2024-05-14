@@ -133,13 +133,18 @@ def make_plot(xdata, ydata, metadata, ax, xlabel_set=None, ylabel_set=None, titl
 #    do_tot_avg=True,
 #    do_running_avg=True)
 #
-#plot_xvg("full_trajec/rmsd_0-100ns.xvg",
-#    fname2="full_trajec/rmsd_xtal_0-100ns.xvg",
-#    title_set="RMSD, 2V1A, Backbone",
+#plot_xvg("full_trajec/rmsd_200-500ns.xvg",
+#    fname2="full_trajec/rmsd_xtal_200-500ns.xvg",
+#    title_set="RMSD, 2V1A, Backbone Atoms",
 #    legend=["Ref: Equilibrated", "Ref: Crystal",])
 
-plot_xvg("full_trajec/gyrate_0-100ns.xvg",
-         title_set="Radius of gyration, 2V1A",
+#plot_xvg("05NPT_100-150ns/82_459_angle_z.xvg",
+#         title_set="Angle from Positive Z-Axis, 2V1A",
+#         do_tot_avg=True,
+#         do_running_avg=True)
+
+plot_xvg("full_trajec/gyrate_200-500ns.xvg",
+         title_set="Radius of gyration",
          do_tot_avg=True,
          do_running_avg=True)
 
