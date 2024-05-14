@@ -1,0 +1,4 @@
+parm 2v1a.prmtop
+trajin 2v1a-MD.nc 15000
+trajout 2v1a-MD.pdb pdb
+run

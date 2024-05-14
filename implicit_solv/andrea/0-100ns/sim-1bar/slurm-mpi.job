@@ -1,0 +1,20 @@
+#!/bin/bash  -l
+#SBATCH --nodes=1 --ntasks-per-node 12
+#  this is asking for 1 node, with 12 cores
+#     the -l is needed on first line if you want to use modules
+#SBATCH -t 14-0:00
+#SBATCH --mail-user=sheppard@ucsb.edu
+#SBATCH --mail-type=all
+#SBATCH --job-name=Gd-sTPATCN_2V1A_implicit_solv_1bar_MPI
+#SBATCH -o ./output.%j.out
+
+module load intel/18
+
+cd $SLURM_SUBMIT_DIR
+
+/bin/hostname
+
+conda activate plumed-MD
+conda activate --stack plumed-MD-amber
+export PLUMED_KERNEL=/home/jsheppard/anaconda3/envs/plumed-MD/lib/libplumedKernel.so
+mpirun -np $SLURM_NPROCS sander.MPI -O -i sim.in -o 2v1a-MD.out -c 2v1a_min.ncrst -p 2v1a.prmtop -r 2v1a-MD.ncrst -x 2v1a-MD.nc > logfile

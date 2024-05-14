@@ -1,0 +1,15 @@
+# Restart Simulations:
+mpirun -np $SLURM_NPROCS pmemd.MPI -O -i sim.in -o 2v1a-MD.out -c 2v1a-MD.ncrst -p 2v1a.prmtop -r 2v1a-MD.ncrst -x 2v1a-MD.nc > logfile
+
+# Convert Amber trajectory to PDB to use GROMACS tools
+
+cpptraj.in  # input file name
+----------
+
+parm *.prmtop
+trajin *-MD.nc 150000  # start frame, to remove burn-in
+trajout *-MD.pdb
+
+# Run convert script:
+conda activate AmberTools23
+cpptraj -i name_of_file.in

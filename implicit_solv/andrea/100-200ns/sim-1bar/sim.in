@@ -1,0 +1,11 @@
+ MD Generalise Born, no cut off
+ &cntrl
+  imin = 0,
+  igb = 5, gbsa = 1, extdiel = 78.4, ntpr = 1000, ntwx = 1000, ntwr = 1000,
+  ntt = 3, gamma_ln = 1.0, ig = -1, nscm = 500,
+  temp0 = 298.0, irest = 1, ntx=5
+  nstlim = 50000000, dt = 0.002, ntc = 2, ntf = 2,
+  cut = 9999.0, plumed = 1, plumedfile = 'plumed.dat'
+ /
+
+
