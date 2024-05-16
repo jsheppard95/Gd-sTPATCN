@@ -17,12 +17,16 @@
 start*.pdb
 cluster*.pdb
 implicit_solv/andrea/0-100ns/sim-3kbar/clusters_0.4nm.pdb
-implicit_solv/andrea/0-100ns/sim-4kbar/2v1a-MD_1-15000.pdb
 implicit_solv/andrea/0-100ns/sim-4kbar/2v1a-MD.gro
 implicit_solv/andrea/0-100ns/sim-4kbar/2v1a-MD.pdb
-implicit_solv/andrea/light_state/sim-1bar/2v1a-MD_1-15000.pdb
+implicit_solv/sim-1bar/
+implicit_solv/sim-3kbar/
+implicit_solv/sim-4kbar/
+implicit_solv/test/
+
 *MD.pdb
 *MD.gro
+*_*.pdb
 
 # Log and output parameter files
 *.log
